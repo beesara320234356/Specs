@@ -1,0 +1,20 @@
+{
+  "name": "SarabWebRTC",
+  "version": "135.3.1",
+  "summary": "WebRTC build",
+  "description": "This is the WebRTC build",
+  "homepage": "https://github.com/beesara320234356/WebRTC.git",
+  "license": {
+    "type": "BSD",
+    "text": "Copyright (c) 2011, The WebRTC project authors. All rights reserved."
+  },
+  "authors": "The WebRTC project authors",
+  "source": {
+    "http": "https://github.com/jitsi/webrtc/releases/download/v124.0.2/WebRTC.xcframework.zip",
+    "flatten": false
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "vendored_frameworks": "WebRTC.xcframework"
+}
